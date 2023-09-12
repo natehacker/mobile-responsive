@@ -1,12 +1,65 @@
-<p style="text-align: center;"><span style="font-family: Arial;"><span style="font-size: 16px;"><span style="font-family: Arial; font-size: 16px;"><strong>Please note this contact list is intended for healthcare providers to report diseases or conditions of public health importance to <br />state health departments.<br /></strong></span></span>
-</span>
-</p>
-<p style="text-align: center;"><span style="font-family: Arial;"><span style="font-size: 16px;">Last Updated: December 6, 2022. Please email <a href="mailto:preparedness@cste.org">preparedness@cste.org</a>&nbsp;to report any changes to the designated phone numbers. <span style="background-color: #ffffff; color: #183247;">For State Epidemiologists’ contact information, please click here:&nbsp;</span>
-<a
-    href="https://www.cste.org/page/StateEpi" rel="noreferrer" target="_blank" heap-ignore="true" data-identifyelement="511" style="box-sizing: border-box; background-color: #ffffff; color: #2c5cc5; word-break: break-word; overflow-wrap: break-word;">https://www.cste.org/page/StateEpi</a>.&nbsp;</span>
-    </span>
-</p>
-<p><span style="font-family: Arial;"><span style="font-size: 16px;">&nbsp;</span></span>
-</p>
-<p><iframe width="100%" height="3100" src="https://resources.cste.org/epiafterhours" frameborder="0"></iframe><br />
-</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+        #download-pdf-button {
+            display: none;
+            text-align: center;
+            margin: 20px;
+        }
+
+        .btn {
+            background-color: #003479;
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-align: center;
+            border-radius: 40px;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+
+        @media (max-width: 768px) {
+            #download-pdf-button {
+                display: block;
+            }
+
+            #iframe {
+                display: none; /* Hide the iframe on mobile */
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div id="content">
+    <p style="text-align: center;">
+        <span style="font-family: Arial;">
+            <span style="font-size: 16px;">
+                <span style="font-family: Arial; font-size: 16px;">
+                    <strong>Please note this contact list is intended for healthcare providers to report diseases or conditions of public health importance to <br />state health departments.<br /></strong>
+                </span>
+            </span>
+        </span>
+    </p>
+    <p style="text-align: center;">
+        <span style="font-family: Arial;">
+            <span style="font-size: 16px;">Last Updated: December 6, 2022. Please email <a href="mailto:preparedness@cste.org">preparedness@cste.org</a>&nbsp;to report any changes to the designated phone numbers. <span style="background-color: #ffffff; color: #183247;">For State Epidemiologists’ contact information, please click here:&nbsp;</span>
+                <a href="https://www.cste.org/page/StateEpi" rel="noreferrer" target="_blank" heap-ignore="true" data-identifyelement="511" style="box-sizing: border-box; background-color: #ffffff; color: #2c5cc5; word-break: break-word; overflow-wrap: break-word;">https://www.cste.org/page/StateEpi</a>.&nbsp;</span>
+        </span>
+    </p>
+    <div id="download-pdf-button">
+        <a href="https://cdn.ymaws.com/www.cste.org/resource/resmgr/Kendo_UI_Grid_Export__3_.pdf"class="btn"download>Download PDF</a>
+    </div>
+    <p><span style="font-family: Arial;"><span style="font-size: 16px;">&nbsp;</span></span></p>
+    <p><iframe id="iframe" width="100%" height="3100" src="https://resources.cste.org/epiafterhours" frameborder="0"></iframe><br /></p>
+</div>
+
+</body>
+</html>
